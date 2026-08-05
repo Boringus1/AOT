@@ -166,7 +166,7 @@ export const botConfig = {
       // Plural display name.
       namePlural: "Ruble",
       // Currency symbol shown in balances.
-      symbol: "₽",
+      symbol: "P",
     },
 
     // Starting balance for new users.
