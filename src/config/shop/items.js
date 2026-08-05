@@ -1,10 +1,10 @@
 export const shopItems = [
     {
         id: 'extra_work',
-        name: 'Extra Work Shift',
+        name: 'Higher work contract',
         price: 5000,
         description: 'Allows 1 extra use of the `/work` command.',
-        type: 'consumable',
+        type: 'contract',
         maxQuantity: 5,
 cooldown: 86400000,
         effect: {
