@@ -179,8 +179,8 @@ export const botConfig = {
     dailyAmount: 10,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 430,
+    workMax: 640,
 
     // Beg command random payout range.
     begMin: 1,
@@ -189,13 +189,13 @@ export const botConfig = {
     // Command cooldowns (milliseconds).
     cooldowns: {
       daily: 24 * 60 * 60 * 1000,
-      work: 60 * 60 * 1000,
+      work: 20 * 60 * 1000,
       crime: 2 * 60 * 60 * 1000,
       rob: 4 * 60 * 60 * 1000,
     },
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.2,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
@@ -206,7 +206,7 @@ export const botConfig = {
   // SHOP SETTINGS
   // =========================
   // Add shop defaults here when needed.
-  shop: {
+  shop: { 
 
   },
 
