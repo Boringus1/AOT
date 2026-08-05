@@ -75,7 +75,7 @@ export const botConfig = {
     },
 
     // How long users must wait before submitting another application (hours).
-    applicationCooldown: 24,
+    applicationCooldown: 23,
 
     // Auto-delete denied applications after this many days.
     deleteDeniedAfter: 7,
@@ -283,21 +283,7 @@ export const botConfig = {
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
   },
-
-  // =========================
-  // BIRTHDAY SETTINGS
-  // =========================
-  birthday: {
-    // Role ID given to users on their birthday.
-    defaultRole: null,
-
-    // Channel ID where birthday announcements are posted.
-    announcementChannel: null,
-
-    // Timezone used to calculate birthday dates.
-    timezone: "UTC",
-  },
-
+  
   // =========================
   // VERIFICATION SETTINGS
   // =========================
