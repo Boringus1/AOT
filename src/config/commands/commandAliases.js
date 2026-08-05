@@ -10,7 +10,7 @@ export const commandAliases = {
 
     'dep': 'deposit',
     'with': 'withdraw',
-    'work': 'work',
+    'work': 'extract oil',
     'daily': 'daily',
     'gamble': 'gamble',
     'bet': 'gamble',
